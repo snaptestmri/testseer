@@ -1,0 +1,18 @@
+<idea-plugin>
+    <id>io.testseer.intellij</id>
+    <name>TestSeer</name>
+    <vendor url="https://github.com">TestSeer</vendor>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.java</depends>
+
+    <actions>
+        <action id="TestSeer.GenerateTestPlan"
+                class="io.testseer.intellij.action.GenerateTestPlanAction"
+                text="Generate TestSeer Plan"
+                description="Run TestSeer analysis using IntelliJ PSI for the current class">
+            <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+            <add-to-group group-id="ProjectViewPopupMenu" anchor="last"/>
+        </action>
+    </actions>
+</idea-plugin>

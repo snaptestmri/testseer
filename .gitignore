@@ -1,0 +1,19 @@
+# IDE / OS
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local agent / config
+.claude/
+.testseer/
+
+# IntelliJ plugin build
+intellij-plugin/build/
+intellij-plugin/.gradle/
+intellij-plugin/.intellijPlatform/
+
+# Env
+.env
+.env.local
