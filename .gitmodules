@@ -1,0 +1,6 @@
+[submodule "testseer-backend"]
+	path = testseer-backend
+	url = https://github.com/snaptestmri/testseer-backend.git
+[submodule "testseer-mcp"]
+	path = testseer-mcp
+	url = https://github.com/snaptestmri/testseer-mcp.git
